@@ -14,6 +14,8 @@
 		AC0A159B2886BB96008218C9 /* qrcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A159A2886BB96008218C9 /* qrcodeTests.swift */; };
 		AC0A15A52886BB96008218C9 /* qrcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A15A42886BB96008218C9 /* qrcodeUITests.swift */; };
 		AC0A15A72886BB96008218C9 /* qrcodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A15A62886BB96008218C9 /* qrcodeUITestsLaunchTests.swift */; };
+		AC3920FC288E361C002307DC /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3920FB288E361C002307DC /* MemoryGame.swift */; };
+		AC3920FE288E3795002307DC /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3920FD288E3795002307DC /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		AC0A15A02886BB96008218C9 /* qrcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qrcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0A15A42886BB96008218C9 /* qrcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrcodeUITests.swift; sourceTree = "<group>"; };
 		AC0A15A62886BB96008218C9 /* qrcodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrcodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC3920FB288E361C002307DC /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		AC3920FD288E3795002307DC /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		AC0A15882886BB94008218C9 /* qrcode */ = {
 			isa = PBXGroup;
 			children = (
+				AC3920FD288E3795002307DC /* EmojiMemoryGame.swift */,
 				AC0A15892886BB94008218C9 /* qrcodeApp.swift */,
 				AC0A158B2886BB94008218C9 /* ContentView.swift */,
+				AC3920FB288E361C002307DC /* MemoryGame.swift */,
 				AC0A158D2886BB96008218C9 /* Assets.xcassets */,
 				AC0A158F2886BB96008218C9 /* Preview Content */,
 			);
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3920FC288E361C002307DC /* MemoryGame.swift in Sources */,
 				AC0A158C2886BB94008218C9 /* ContentView.swift in Sources */,
 				AC0A158A2886BB94008218C9 /* qrcodeApp.swift in Sources */,
+				AC3920FE288E3795002307DC /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
