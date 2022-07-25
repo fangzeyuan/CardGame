@@ -48,6 +48,7 @@
 		AC0A15A62886BB96008218C9 /* qrcodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrcodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AC3920FB288E361C002307DC /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		AC3920FD288E3795002307DC /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		AC3920FF288E9304002307DC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +105,7 @@
 				AC3920FB288E361C002307DC /* MemoryGame.swift */,
 				AC0A158D2886BB96008218C9 /* Assets.xcassets */,
 				AC0A158F2886BB96008218C9 /* Preview Content */,
+				AC3920FF288E9304002307DC /* README.md */,
 			);
 			path = qrcode;
 			sourceTree = "<group>";
